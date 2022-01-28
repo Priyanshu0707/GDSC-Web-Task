@@ -1,0 +1,141 @@
+/****************************************************Home Page***********************************************/
+* {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg.jpg);
+    background-size: 1536px 713px;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    color: black;
+    font-size: 50px;
+    opacity: 1;
+    z-index: 1;
+}
+
+nav span {
+    background: none;
+    margin: 10px;
+}
+#skill {
+    position: fixed;
+    right: 0px;
+    margin: 10px;
+}
+
+.skills {
+    background: none;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#skill :hover {
+    border: 1px solid black;
+    
+}
+
+.profile {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    height: 250px;
+    border-radius: 125px;
+    border: 5px solid skyblue;
+}
+
+#AboutMyself {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    font-size: 60px;
+    background: none;
+}
+
+.About {
+    position: absolute;
+    top: 325px;
+    left: 150px;
+    font-size: 25px;
+    background: none;
+}
+
+#buttons {
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    font-size: 30px;
+    background: none;
+}
+
+.button {
+    text-decoration: none;
+    background: none;
+    border: 2px solid black;
+    color: black;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+/****************************************************Hobbies Page**********************************************/
+#heading {
+    background: none;
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    font-size: 50px;
+}
+
+#my_hobbies {
+    background: none;
+    position: absolute;
+    font-size: 30px;
+    top: 250px;
+    left: 700px;
+    text-align: center;
+}
+#my_hobbies :hover {
+
+    background-color: aquamarine;
+}
+
+.element {
+    background: none;
+
+}
+
+
+
+
+/****************************************************Skills Page***********************************************/
+#web {
+    background: none;
+    font-size: 40px;
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.elements {
+    background: none;
+
+    transition: all 1s ease-in 0s;
+}
+.elements:hover {
+    color: white;
+    background-color: #DADDFC;
+}
